@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+  int a; 
+  //Bikin variabel a
+  int b; 
+  //Bikin variabel b
+  printf("Input number a: "); 
+  //Sekedar tulisan aja buat nyuruh user masukin nomor
+  scanf("%d", &a);
+  //Buat nerima angka yg dimasukkin user, terus angkanya dimasukkin ke variabel a
+  printf("Input number b: "); 
+  //Sama kyak yg diatas
+  scanf("%d", &b);
+  //Buat nerima angka yg dimasukkin user, terus angkanya dimasukkin ke variabel b
+  printf("The result is: %d", a+b);
+  //Nampilin hasilnya, kalimat "a+b" itu buat nambahin variable a dan variable b
+  return 0;
+}
